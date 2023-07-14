@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .year_one,
+    .year_two, 
+    .others_year {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 1500px;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        background: #F0F0F0;
+        width: 240px;
+        height: 100%;
+        padding-left: 35px;
+        padding-bottom: 20px;
+        border: 1px solid blue;
+        border-radius: 30px;
+    }
+
+    button {
+        cursor: pointer;
+        width: 210px;
+        height: 40px;
+        background: blue;
+        color: white;
+        border: 0;
+        border-radius: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h3 {
+        text-decoration: underline;
+        text-align: center;
+        cursor: pointer;
+        text-align: center;
+        color: blue;
+    }
+
+    h2 {
+        margin-left: -50px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Cars API</h1>
+        <div class="big_box">
+            <h2>Less then 3 years</h2>
+            <div class="year_one"></div>
+            <h3>Показать еще 12 автомобилей</h3>
+            <h2>Less then 10 years</h2>
+            <div class="year_two"></div>
+            <h3>Показать еще 12 автомобилей</h3>
+            <h2>More than 10 years</h2>
+            <div class="others_year"></div>
+            <h3>Показать еще 12 автомобилей</h3>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
